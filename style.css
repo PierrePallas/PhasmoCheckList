@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+  }
+
+  body {
+      background: black;
+  }
+
+  header img {
+      min-width: 20%;
+      height: 100px;
+      border-radius: 15px;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 2rem;
+      transition: 0.2s;
+      margin-top: -50px;
+  }
+
+  nav a:hover {
+      transform: scale(1.1);
+  }
+
+  nav a:visited {
+      text-decoration: none;
+      color: white;
+  }
+
+
+  nav {
+      display: flex;
+      justify-content: space-around;
+  }
+
+ 
+
+table {
+    width: 100%;
+    border-spacing: 20px;
+    margin-top: 30px;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.nom-fantome {
+    font-size: 1.2rem;
+    color: white;
+}
+
+th {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.card {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+
+.card img {
+    height: 300px;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
